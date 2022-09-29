@@ -1,0 +1,8 @@
+Cuestiones sin resolver:
+
+1)Intento separar .footer1 de .footer2. He probado con "justify-content: flex-star" y "flex-end" respectivamente. No me obedecen.
+2).login2 tampoco me obedece cuanto intento ejecutar "text-decoration:none"
+3)Para empujar el footer hasta abajo subí la altura mínima del main ¿Es lo ideal?
+4)¿Hay alguna forma de alinear automáticamente los elementos de texto con los formularios? 
+
+Gracias de antemano

@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 50px;
+    margin: 0;
+}
+header{
+    justify-content: space-between;
+    box-shadow: 2px 4px 2px 0px rgb(150, 150, 155);
+    min-height: 50px;
+}
+main{
+    min-height: 80vh;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+footer{
+    justify-content: space-between;
+    box-shadow: 0px -4px 2px 0px rgb(150, 150, 155);
+}
+.footer1{
+    justify-content: flex-start;
+}
+.footer2{
+    justify-content: flex-end;
+}
+.issuu-logo{
+    width: 150px;
+    position: fixed;
+}
+fieldset{
+    border: hidden;
+}
+.login1{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end; 
+    padding-top: 10px;  
+}
+.login2{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    text-decoration:none;
+    padding-right: 60px;
+}    
+.google-background{
+    background-color: rgb(31, 161, 226);
+    border: solid;
+    border-radius: 3px;
+    border-color: rgb(31, 161, 226);
+    padding-top:3px;
+}
+.fb-background{
+    background-color: rgb(70, 79, 158);
+    border: solid;
+    border-radius: 3px;
+    border-color: rgb(70, 79, 158);
+    padding-top:3px;
+}
+.link-font{
+    color:antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signup1{
+    border: rgb(93, 93, 93);
+    border: dashed;
+    border-radius: 30px;
+    padding: 20px 16px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+button span.button-text{
+    font-weight: bold;
+    margin: 2px 5px;
+}
+.input-name{
+    font-weight: bold;
+    display:block;
+    margin-bottom: 0px;
+}
+.input-input{
+    margin-top: 0px;
+    width: 400px;
+}
+.checkbox1{
+    font-size: 12px;
+}
