@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="styles.css">
     <title>Ejercicio-Mailchimp</title>
 </head>
-<body>
-    <img src="Mailchimp.Logo.jpeg" alt="Mailchimp">
+<main>
+    <img src="./assets/Logo-Mailchimp.png" alt="Mailchimp" >
     <form action="\" class="form-body">
-    <h2>Welcome to Mailchimp</h2>
-    <p class="introduction">Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account?<a href="">Log in</a></p>
-<p class="data">Email</p><p><input type="text"></p>
-<p class="data">Username</p><p><input type="text"></p>
-<p class="data">Password</p><p><input type="password"></p>
-<div>
-<ul>
-    <li>One lowercase character</li>
-    <li>One uppercase character</li>
-    <li>One number</li>
-    <li>One special character</li>
-    <li>8 characters minimum</li>
-</ul>
-</div>
-<div>
-    <button type="submit">Sign Up</button>
-    <input type="checkbox">I don't want to receive emails about new Mailchimp products, best practices or special offers.
-</div>
-</form>
+        <h2 class="welcome">Welcome to Mailchimp</h2>
+            <p class="introduction">Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account?<a href="">Log in</a></p>
+            <p class="data-name">Email</p><p><input type="text" class="data" required></p>
+            <p class="data-name">Username</p><p><input type="text" class="data" required></p>
+            <p class="data-name">Password</p><p><input type="password" class="data" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"></p>
+        <div>
+        <ul>
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+            <li>One special character</li>
+            <li>8 characters minimum</li>
+        </ul>
+        </div>
+        <div class="final-block">
+            <button type="submit" class="signup1">Sign Up</button>
+            <input type="checkbox" class="checkbox"><p class="checking">I don't want to receive emails about new Mailchimp products, best practices or special offers.</p>
+        </div>
+    </form>
+</main>
 <footer>
    <p>By clicking the "Sign up" button you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
 </footer>
