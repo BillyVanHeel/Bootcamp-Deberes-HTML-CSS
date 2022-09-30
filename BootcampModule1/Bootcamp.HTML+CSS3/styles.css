@@ -16,9 +16,6 @@ main{
     font-size: 18px;
     padding-right: 80px;
 }
-.logo{ 
-   position: relative;
-}
 .form-body{
     margin-right: 30%;
 }
@@ -37,7 +34,7 @@ main{
 .checking{
     display:inline-block;
     width: 300px;
-    position: fixed;
+    position: absolute;
     font-size: 15px;
     font-stretch: expanded;
 }

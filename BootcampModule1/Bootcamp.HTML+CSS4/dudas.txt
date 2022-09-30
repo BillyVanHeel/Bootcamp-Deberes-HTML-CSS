@@ -1,0 +1,6 @@
+Tengo algunas dudas de posición (Por ahora lo que más me cuesta hasta la fecha)
+
+1.Necesito echar la lista "line2-list" a la derecha sin desplazar del centro el span a su lado.
+2. ¿Hay alguna forma de reducir los espacios que quedan entre los elementos del header?
+
+Gracias.
