@@ -1,6 +1,7 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 160px;
+    display: flex;
+    flex-direction: row;
 }
 main{
     display: flex;
@@ -8,9 +9,9 @@ main{
 }
 .welcome{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 550;
+    font-weight: bold;
     font-size: 50px;
-    line-height: 20%;
+    display: inline;
 }
 .introduction{
     font-size: 18px;
@@ -24,10 +25,11 @@ main{
     height: 30px;
     opacity: 0.6;
 }
-.data-name{
-    font-weight: bold;
+fieldset{
+    border:hidden;
 }
 .checkbox{
+    position: relative;
     width: 20px;
     height: 20px;
 }
@@ -39,7 +41,8 @@ main{
     font-stretch: expanded;
 }
 footer{
-    padding-left: 222px;
+    display: flex;
+    justify-content: center;
 }
 ul{
   columns: 2;
@@ -48,8 +51,14 @@ ul li::marker{
  color: rgb(93, 93, 235);
 }
 .signup1{
+    position: relative;
     opacity: 0.6;
     padding: 16px 25px;
+    width: 150px;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.final-block{
+    display:flex;
+    flex-direction: row;
 }
