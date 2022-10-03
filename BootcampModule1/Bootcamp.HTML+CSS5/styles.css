@@ -1,0 +1,205 @@
+header{
+    margin-top: -20px;
+    width: 100%;
+    background-image: url(./assets/bmw-background.jpg);
+    display:flex;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+}
+header ul li a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid antiquewhite;
+    align-items: flex-start;
+    font-weight: bold;
+    width: 80%;
+}
+.navbar-1{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-1 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-1 ul li{
+    padding: 5px;
+}
+.navbar-1 li, a:link a:visited{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navbar-2{
+    display: flex;
+    justify-content: flex-end;
+}
+.bmw-logo{
+    position: relative;
+}
+.bmw-logo img{
+    object-fit: cover;
+    height: 80px;
+    width: 60px;   
+}
+.bottom-feat{
+    font-weight: bold;
+    position: relative;
+    align-self: flex-end;
+    justify-content: flex-start;
+    right: 20%;
+    padding-left: 500 px;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+.bottom-feat > button{
+    color: antiquewhite;
+    font-weight: bold;
+    width: 280px;
+    height: 60px;
+    background-color: rgb(36, 120, 189);
+    border: none;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+article a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+section > h4{
+    opacity: 0.4;
+}
+.model-list ul{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(149, 152, 155);
+}
+.model-list ul li{
+    display: inline-block;
+    padding: 2px;
+    font-weight: bold;
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+.model-list ul li:hover{
+    opacity: 1;
+    border-bottom: 3px solid rgb(36, 120, 189);
+}
+.car-pic img{
+    width: 200px;
+    height: 150px;
+}
+.car-info{
+    font-weight: bold;
+}
+.car-info > p{
+    opacity: 0.5;
+}
+.car-options{
+    font-weight: bold;
+    font-size: 80%;
+}
+.car-list{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(24%, 1fr));
+    grid-row-gap: 30px;
+    grid-column-gap:10px ;
+}
+.car-list > article{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.news{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns:repeat(4, 24%);
+    grid-row-gap:20px;
+    grid-column-gap:15px;
+}
+.news > article{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 213, 218);
+    width: 90%; 
+}
+.news article img{
+    margin: 15px;
+    height: 140px;
+}
+.multimedia{
+    margin-top: 120px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-row-gap:20px;
+    grid-column-gap:15px;
+}
+.multimedia > article{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(209, 213, 218);
+}
+.slides{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.slides > button{
+    color: rgb(74, 77, 80);
+    font-weight: bold;
+    margin: 15px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(209, 213, 218);
+    border: none;
+}
+footer > section{
+    padding-top: 80px;
+    padding-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-column-gap: 15px;
+    background-color: rgb(176, 184, 192);
+    
+    
+}
+footer section div{
+    border-top: 1px solid rgb(102, 106, 110);   
+}
+footer section ul{
+    list-style: none;
+}
+footer li{
+    opacity: 0.4;
+    font-weight: bold;
+}
+.closing-tab{
+    display: flex;
+    justify-content: space-between;
+}
+.closing-tab ul li{
+    display: inline;
+}
+.closing-tab ul li a{
+    text-decoration: none;
+}
